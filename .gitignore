@@ -1,0 +1,140 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Password Hacker (Java)/*
+!/Password Hacker (Java)/task/
+/Password Hacker (Java)/task/*
+!/Password Hacker (Java)/task/src
+
+# Project exclude paths
+/Topics/Functional data processing with streams/A sorted stream/out/
+/Topics/Functional data processing with streams/A sorted stream/out/production/classes/
+/Topics/Functional data processing with streams/Count passwords/out/
+/Topics/Functional data processing with streams/Count passwords/out/production/classes/
+/Topics/Functional data processing with streams/Print elements of a stream/out/
+/Topics/Functional data processing with streams/Print elements of a stream/out/production/classes/
+/Topics/Functional data processing with streams/Statements about stream operations/out/
+/Topics/Functional data processing with streams/Statements about stream operations/out/production/classes/
+/Topics/Functional data processing with streams/Theory/out/
+/Topics/Functional data processing with streams/Theory/out/production/classes/
+/Topics/Infinite streams/Generating cats/out/
+/Topics/Infinite streams/Generating cats/out/production/classes/
+/Topics/Infinite streams/Making a stream finite/out/
+/Topics/Infinite streams/Making a stream finite/out/production/classes/
+/Topics/Infinite streams/Methods for creating infinite streams/out/
+/Topics/Infinite streams/Methods for creating infinite streams/out/production/classes/
+/Topics/Infinite streams/Powers of two/out/
+/Topics/Infinite streams/Powers of two/out/production/classes/
+/Topics/Infinite streams/Select output/out/
+/Topics/Infinite streams/Select output/out/production/classes/
+/Topics/Infinite streams/Theory/out/
+/Topics/Infinite streams/Theory/out/production/classes/
+/Topics/Infinite streams/What does the code print/out/
+/Topics/Infinite streams/What does the code print/out/production/classes/
+/Topics/Iterator and Iterable/Determine the order/out/
+/Topics/Iterator and Iterable/Determine the order/out/production/classes/
+/Topics/Iterator and Iterable/Existing iterators/out/
+/Topics/Iterator and Iterable/Existing iterators/out/production/classes/
+/Topics/Iterator and Iterable/Hip-Hop/out/
+/Topics/Iterator and Iterable/Hip-Hop/out/production/classes/
+/Topics/Iterator and Iterable/Interfaces with iterator/out/
+/Topics/Iterator and Iterable/Interfaces with iterator/out/production/classes/
+/Topics/Iterator and Iterable/Iterators and for-each/out/
+/Topics/Iterator and Iterable/Iterators and for-each/out/production/classes/
+/Topics/Iterator and Iterable/Match methods and definitions/out/
+/Topics/Iterator and Iterable/Match methods and definitions/out/production/classes/
+/Topics/Iterator and Iterable/Remove elements of a collection/out/
+/Topics/Iterator and Iterable/Remove elements of a collection/out/production/classes/
+/Topics/Iterator and Iterable/Theory/out/
+/Topics/Iterator and Iterable/Theory/out/production/classes/
+/Topics/Iterator and Iterable/What is an Iterable/out/
+/Topics/Iterator and Iterable/What is an Iterable/out/production/classes/
+/Topics/Iterator and Iterable/What is an Iterator/out/
+/Topics/Iterator and Iterable/What is an Iterator/out/production/classes/
+/Topics/Map and flatMap/Count words without repetitions/out/
+/Topics/Map and flatMap/Count words without repetitions/out/production/classes/
+/Topics/Map and flatMap/Flatten list of lists/out/
+/Topics/Map and flatMap/Flatten list of lists/out/production/classes/
+/Topics/Map and flatMap/Flatten streams/out/
+/Topics/Map and flatMap/Flatten streams/out/production/classes/
+/Topics/Map and flatMap/Fruits/out/
+/Topics/Map and flatMap/Fruits/out/production/classes/
+/Topics/Map and flatMap/List of mapped strings/out/
+/Topics/Map and flatMap/List of mapped strings/out/production/classes/
+/Topics/Map and flatMap/map, flatMap, and mapTo/out/
+/Topics/Map and flatMap/map, flatMap, and mapTo/out/production/classes/
+/Topics/Map and flatMap/Match lists and numbers/out/
+/Topics/Map and flatMap/Match lists and numbers/out/production/classes/
+/Topics/Map and flatMap/Maximum of the absolute values/out/
+/Topics/Map and flatMap/Maximum of the absolute values/out/production/classes/
+/Topics/Map and flatMap/Sorting the absolute values/out/
+/Topics/Map and flatMap/Sorting the absolute values/out/production/classes/
+/Topics/Map and flatMap/Statements/out/
+/Topics/Map and flatMap/Statements/out/production/classes/
+/Topics/Map and flatMap/Theory/out/
+/Topics/Map and flatMap/Theory/out/production/classes/
+/Topics/Map and flatMap/Triple/out/
+/Topics/Map and flatMap/Triple/out/production/classes/
+/Topics/Stack/Deque output/out/
+/Topics/Stack/Deque output/out/production/classes/
+/Topics/Stack/Getting the max element of a stack/out/
+/Topics/Stack/Getting the max element of a stack/out/production/classes/
+/Topics/Stack/Html Parser/out/
+/Topics/Stack/Html Parser/out/production/classes/
+/Topics/Stack/Match methods/out/
+/Topics/Stack/Match methods/out/production/classes/
+/Topics/Stack/Methods/out/
+/Topics/Stack/Methods/out/production/classes/
+/Topics/Stack/Stack implementation/out/
+/Topics/Stack/Stack implementation/out/production/classes/
+/Topics/Stack/The LIFO principle in action/out/
+/Topics/Stack/The LIFO principle in action/out/production/classes/
+/Topics/Stack/Theory/out/
+/Topics/Stack/Theory/out/production/classes/
+/Topics/Stack/Using deque/out/
+/Topics/Stack/Using deque/out/production/classes/
+/Topics/Stack/Which brackets are balanced/out/
+/Topics/Stack/Which brackets are balanced/out/production/classes/
+/Topics/Stream filtering/Check if a number is prime/out/
+/Topics/Stream filtering/Check if a number is prime/out/production/classes/
+/Topics/Stream filtering/Combine filters/out/
+/Topics/Stream filtering/Combine filters/out/production/classes/
+/Topics/Stream filtering/Numbers/out/
+/Topics/Stream filtering/Numbers/out/production/classes/
+/Topics/Stream filtering/Numbers filtering/out/
+/Topics/Stream filtering/Numbers filtering/out/production/classes/
+/Topics/Stream filtering/Omitting long strings/out/
+/Topics/Stream filtering/Omitting long strings/out/production/classes/
+/Topics/Stream filtering/Statements/out/
+/Topics/Stream filtering/Statements/out/production/classes/
+/Topics/Stream filtering/Theory/out/
+/Topics/Stream filtering/Theory/out/production/classes/
+/Topics/Streams of primitives/Existing primitive type streams/out/
+/Topics/Streams of primitives/Existing primitive type streams/out/production/classes/
+/Topics/Streams of primitives/Ranged stream/out/
+/Topics/Streams of primitives/Ranged stream/out/production/classes/
+/Topics/Streams of primitives/The average salary/out/
+/Topics/Streams of primitives/The average salary/out/production/classes/
+/Topics/Streams of primitives/Theory/out/
+/Topics/Streams of primitives/Theory/out/production/classes/
+/Topics/StringBuilder/Combining strings using a mutable sequence/out/
+/Topics/StringBuilder/Combining strings using a mutable sequence/out/production/classes/
+/Topics/StringBuilder/Concat all strings without digits/out/
+/Topics/StringBuilder/Concat all strings without digits/out/production/classes/
+/Topics/StringBuilder/Create an email/out/
+/Topics/StringBuilder/Create an email/out/production/classes/
+/Topics/StringBuilder/Love of big letters/out/
+/Topics/StringBuilder/Love of big letters/out/production/classes/
+/Topics/StringBuilder/StringBuilder methods/out/
+/Topics/StringBuilder/StringBuilder methods/out/production/classes/
+/Topics/StringBuilder/Theory/out/
+/Topics/StringBuilder/Theory/out/production/classes/
