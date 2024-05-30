@@ -1,0 +1,13 @@
+<div class="step-text">
+<p>You have a list <b>numbers</b>:<b></b></p><pre><code class="language-java">List&lt;Integer&gt; numbers = Stream.of(1, 2, 3, 4, 5).collect(Collectors.toList());</code></pre><p>What numbers does the list <b>generated </b>contain?</p><p><b></b>a)<b></b></p><p><b></b></p><pre><code class="language-java">List&lt;Integer&gt; generated = numbers.stream()
+        .flatMap(n -&gt; Stream.generate(() -&gt; n).limit(n))
+        .collect(Collectors.toList());</code></pre><p>b)</p><pre><code class="language-java">List&lt;Integer&gt; generated = numbers.stream()
+        .flatMapToInt(n -&gt; IntStream.rangeClosed(1, n))
+        .boxed()
+        .collect(Collectors.toList());</code></pre><p>c)</p><pre><code class="language-java">List&lt;Integer&gt; generated = numbers.stream()
+        .flatMapToInt(n -&gt; IntStream.iterate(n, val -&gt; val + 1).limit(n))
+        .boxed()
+        .collect(Collectors.toList());</code></pre><p>d)</p><pre><code class="language-java">List&lt;Integer&gt; generated = numbers.stream()
+        .flatMap(Stream::of)
+        .collect(Collectors.toList());</code></pre>
+</div>

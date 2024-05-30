@@ -1,0 +1,33 @@
+<div class="step-text">
+<p></p>
+<p>Look at the code snippet below and pick the right option about consumer threads</p>
+<pre><code class="language-java">public class GeneratorAndConsumers {
+    public static void main(String[] args) {
+        Queue&lt;Integer&gt; queue = new ConcurrentLinkedQueue&lt;&gt;();
+
+        Thread generator = new Thread(() -&gt; addElements(queue));
+        Thread poller1 = new Thread(() -&gt; pollElements(queue)); // Thread-1
+        Thread poller2 = new Thread(() -&gt; pollElements(queue)); // Thread-2
+
+        generator.start();
+        poller1.start();
+        poller2.start();
+    }
+
+    private static void addElements(Queue&lt;Integer&gt; queue) {
+        for (int i = 1; i &lt;= 10; i++) {
+            queue.add(i);
+        }
+    }
+
+    private static void pollElements(Queue&lt;Integer&gt; queue) {
+        while (true) {
+            Integer number = queue.poll();
+            if (number != null) {
+                System.out.println(Thread.currentThread().getName() + ": " + number);
+            }
+        }
+    }
+}
+</code></pre>
+</div>
